@@ -15,8 +15,8 @@ A web piece that overlays individuals observations about the sun — sourced liv
 4. Posts are filtered in two stages: a fast regex pre-screen removes noise (news, sports, URLs, emoji, date references), then Google Gemini semantically filters for genuine sensory observations of the sun
 5. Kept posts are logged to a local SQLite database for review
 6. Filtered results are cached server-side for 10 minutes to avoid repeated API calls
-6. Once the video is ready, quotes fade in one at a time over the looping sun, auto-rotating every 12 seconds
-7. If the Bluesky or Gemini APIs are unavailable, graceful fallbacks ensure quotes are always shown
+7. Once the video is ready, quotes fade in one at a time over the looping sun, auto-rotating every 12 seconds
+8. If the Bluesky or Gemini APIs are unavailable, graceful fallbacks ensure quotes are always shown
 
 ## Setup
 
